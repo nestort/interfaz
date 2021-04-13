@@ -1,5 +1,8 @@
+
 class Main{
     public static void main(String[] args) {
-        System.out.println("Hola");
+        Perro bossie=new Perro("bossie","cruza");
+        bossie.ladrar();
+        bossie.lanzarJuguete("pelota");
     }
 }
